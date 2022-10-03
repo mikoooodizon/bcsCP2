@@ -1,0 +1,185 @@
+/* here we go */ 
+/* texture the background? a search bar? - applied visual design is actually kinda fun*/
+
+body {
+    background-color: whitesmoke;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    margin: 0%;
+    width: 100%;
+    height: 25em;
+    display: flex;
+ }
+
+ header {
+    text-align: center;
+    background-image:cross-fade();
+}
+
+header >div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+    
+
+header ul {
+    display: flex;
+    list-style: none;
+}
+
+header ul li {
+    margin-right: 1em;
+    align-items: right;
+}
+    /* organizing it makes it easier to edit later */
+ h2 {
+    display: flex;
+    text-align: center;
+    width: 100%;
+}
+
+footer {
+    text-align: center;
+    font-size: small;
+    background-color: whitesmoke;
+}
+
+nav {
+    position: sticky;
+    top: 0%;
+}
+
+iframe {
+    width: 100%;
+}
+
+
+/* MORE SPECIFIC CLASSES SELECTORS -specific */
+.whitePad {
+    background-color: whitesmoke;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    flex-direction:column;
+}
+
+.brandsGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    margin: 2fr 2fr;
+    margin: 4fr; 
+    column-gap: 10%;  
+}
+
+.brands {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  
+.brands ul {
+    columns: 3;
+    -webkit-columns: 3;
+    -moz-columns: 2;
+    padding-left: 10fr;
+    padding-right: 10fr;
+    align-items: center;
+    margin-left: 10fr;
+    margin: right 10fr; ;
+    
+  }
+.brands img {
+    margin: 5px;
+    align-items: center;
+
+  }
+    /*
+    margin: 0;
+    padding: 3%;
+    justify-items: center;
+    image-rendering: crisp-edges;
+    column-gap: 15px;
+    border-image: auto; */
+                    /* a copy 
+                    grid-template-columns: repeat(3, 1fr);
+                    grid-template-rows: repeat(3, 200px);
+                    gap:1em;
+                    align-items: end;
+                    justify-items:center;  JUST DELETE ALL THIS IN THE FINAL CODE */
+
+/* sections are periods */
+
+
+
+/* SPECIFIC OR IDS SELECTORS - id is only one time*/
+
+
+
+
+#part2 {
+    background-color: whitesmoke;
+    color: black;
+    text-align: center;
+}
+
+#studiologos {
+    width: 100%;       
+    margin: 4fr; 
+    column-gap: 10%;  
+}
+
+
+#map h1 {
+text-align: center; 
+font-size:30px;
+}
+
+#map p {
+    text-align: center;
+    font-size: large;
+}
+
+#ceoS {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: max-content;
+    margin: 4fr;
+    padding: 5%;
+    image-rendering: crisp-edges;
+    column-gap: 10px;
+    border-image: auto;
+
+}
+/* did a lot here with h2 and it turned out useless, bruh */
+
+
+/* should I just use the "order" function" */
+#map h1 {
+    text-align: center;
+}
+
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+.studiologos {
+    display: flex;
+}
