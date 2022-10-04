@@ -27,6 +27,11 @@ img {
     background-image:cross-fade();
 }
 
+.header {
+    text-align: center;
+    background-image:cross-fade();
+}
+
 header >div {
     display: flex;
     justify-content: space-between;
