@@ -86,6 +86,19 @@ iframe {
     column-gap: 10%;  
 }
 
+.studiosGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    margin: 5fr 5fr;
+    margin: 4fr; 
+    column-gap: 10%; 
+    border: black;
+}
+
+.studio h2 {
+    text-align: center;
+}
+
 .brands {
     display: flex;
     flex-direction: row;
