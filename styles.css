@@ -1,6 +1,8 @@
 /* here we go */ 
 /* texture the background? a search bar? - applied visual design is actually kinda fun*/
-
+.top-bar {
+    position: top left;
+}
 body {
     background-color: whitesmoke;
     min-height: 100vh;
@@ -71,7 +73,9 @@ iframe {
     background-color: whitesmoke;
     color: black;
     font-family: 'Courier New', Courier, monospace;
-    flex-direction:column;
+    height: 50px;
+    width: 100%;
+    position: relative;
 }
 
 .brandsGrid {
